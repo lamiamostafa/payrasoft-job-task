@@ -1,5 +1,5 @@
 *::before {
-    margin: 0;
+
     box-sizing: border-box;
 }
 
@@ -27,19 +27,14 @@ a:hover {
     font-weight: bold;
 }
 
-#dropdown-basic {
-    color: #1A237E;
-    font-weight: bold;
-    background-color: white;
 
-}
 
 .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 8vh;
-    margin: 10px;
+
 }
 
 .logo {

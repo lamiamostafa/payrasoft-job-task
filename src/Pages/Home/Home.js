@@ -1,11 +1,13 @@
 import React from 'react';
 import Header from '../../Pages/Shared/Header/Header';
+import Registration from '../Registration/Registration';
 
 
 const Home = () => {
     return (
         <div>
-            <Header></Header>
+
+            <Registration></Registration>
 
 
         </div>
