@@ -32,4 +32,16 @@
     color: #A52A2A;
     margin-top: 2px;
     font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.student-input-field {
+    border-color: #008000;
+    padding: 12px;
+    margin-left: 20px;
+}
+
+.label {
+    font-weight: bold;
+    padding-top: 2px;
 }

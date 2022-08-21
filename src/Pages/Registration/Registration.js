@@ -2,6 +2,7 @@ import React from 'react';
 import './Registration.css'
 
 const Registration = () => {
+
     return (
         <div>
             <h1 className="title">Online Registration form</h1>
@@ -211,6 +212,75 @@ const Registration = () => {
                         </div>
                     </div>
                     <h1 class="student-title">Student Information</h1>
+                    <div className="row">
+                        <div className="col-md-5">
+                            <div>
+                                <label className="label col-md-5" htmlFor=" ">ID Number <br />[As Like as Payment Slip] </label>
+                                <input type="text" name="" id="" placeholder="ID No." className="student-input-field my-2 col-md-5" />
+                            </div>
+                            <div>
+                                <label className="label col-md-5" htmlFor=" ">Student Name  </label>
+                                <input type="text" name="" id="" placeholder="Student Name" className="student-input-field my-2 col-md-5" />
+                            </div>
+                            <div>
+                                <label className="label col-md-5" htmlFor=" ">Student Mobile Number <br />(নিজের ব্যবহৃত অ্যাকটিভ নম্বর) </label>
+                                <input type="text" name="" id="" placeholder="Example:01735558228" className="student-input-field my-2 col-md-5" />
+                            </div>
+                            <div>
+                                <label className="label col-md-5" htmlFor=" ">Father's Name <br /> </label>
+                                <input type="text" name="" id="" placeholder="Father's Name" className="student-input-field my-2 col-md-5" />
+                            </div>
+                            <div>
+                                <label className="label col-md-5" htmlFor=" ">Mother's Name <br /> </label>
+                                <input type="text" name="" id="" placeholder="Mother's Name" className="student-input-field my-2 col-md-5" />
+                            </div>
+                            <div>
+                                <label className="label col-md-5" htmlFor=" ">Father's Yearly Income <br /> </label>
+                                <input type="text" name="" id="" placeholder="Father's Yearly Income" className="student-input-field my-2 col-md-5" />
+                            </div>
+                            <div>
+                                <label className="label col-md-5" htmlFor=" ">Email ID <br />[Important for Password Recovery] </label>
+                                <input type="text" name="" id="" placeholder="Email-ID" className="student-input-field my-2 col-md-5" />
+                            </div>
+                        </div>
+                        <div className="col-md-6 ms-5">
+                            <div>
+                                <label className="label col-md-5" htmlFor=" ">Class Roll No. <br />[As Like as Payment slip] </label>
+                                <input type="text" name="" id="" placeholder="Roll No" className="student-input-field my-2 col-md-5" />
+                            </div>
+                            <div>
+                                <label className="label col-md-5" htmlFor=" ">Date of Birth <br />[এস.এস.সি /সমমান পরীক্ষার সার্টিফিকেট অনুযায়ী] </label>
+                                <input type="date" name="" id="" placeholder="" className="student-input-field my-2 col-md-5" />
+                            </div>
+                            <div>
+                                <label className="label col-md-5" htmlFor=" ">Hons Registration No.(for Hons admission)SMS এর মাধ্যমে প্রাপ্ত Security Code(for HSC) </label>
+                                <input type="text" name="" id="" placeholder="Optional" className="student-input-field my-2 col-md-5" />
+                            </div>
+                            <div>
+                                <label className="label col-md-5" htmlFor=" ">Mother's Occupation</label>
+                                <input type="text" name="" id="" placeholder="Mother's Occupation" className="student-input-field my-2 col-md-5" />
+                            </div>
+                            <div>
+                                <label className="label col-md-5" htmlFor=" ">Father's Occupation </label>
+                                <input type="text" name="" id="" placeholder="Father's Occupation " className="student-input-field my-2 col-md-5" />
+                            </div>
+                            <div>
+                                <label className="label col-md-5" htmlFor=" ">Mother's Mobile Number </label>
+                                <input type="text" name="" id="" placeholder="Example: 01735558228" className="student-input-field my-2 col-md-5" />
+                            </div>
+                            <div>
+                                <label className="label col-md-5" htmlFor=" ">Father's Mobile Number </label>
+                                <input type="text" name="" id="" placeholder="Father's Mobile No." className="student-input-field my-2 col-md-5" />
+                            </div>
+
+
+                        </div>
+                        <div className="d-flex">
+                            <label htmlFor="">Permanent Address</label>
+                            <input type="text" name="" placeholder="Permanent Address" id="" />
+                        </div>
+                    </div>
+
                 </form>
             </div >
 
