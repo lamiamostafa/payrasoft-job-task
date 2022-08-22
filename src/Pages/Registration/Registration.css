@@ -26,6 +26,7 @@
     border-color: #008000;
     padding: 12px;
     margin-right: 2px;
+    border: 1px solid #008000;
 }
 
 .student-title {
@@ -39,9 +40,98 @@
     border-color: #008000;
     padding: 12px;
     margin-left: 20px;
+    border: 1px solid #008000;
 }
 
 .label {
     font-weight: bold;
     padding-top: 2px;
+
+
+}
+
+.p-title {
+    color: red;
+    font-weight: bold;
+}
+
+.student-input-img {
+    border: 1px solid #008000;
+    padding: 12px;
+    margin-left: 20px;
+    color: #A52A2A;
+}
+
+.maximum {
+    color: #A52A2A;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.border-maximum {
+    border: 1px solid grey;
+    height: 30px;
+    width: 5px;
+}
+
+.birth-input {
+    color: #A52A2A;
+    font-weight: bold;
+}
+
+.this-title {
+    color: #212529;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.captcha {
+    margin-left: 60px;
+
+}
+
+.title-captcha {
+    margin-left: 60px;
+    color: #008000;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.body-captcha1 {
+    margin-left: 60px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.body-captcha2 {
+    margin-left: -10px;
+    color: #212529;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.nation-input {
+    margin-left: 20px;
+    color: #A52A2A;
+    font-weight: bold;
+}
+
+.save-field {
+    margin-left: 60px;
+}
+
+.save-field-title {
+    margin-left: 60px;
+}
+
+.submit-button {
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #2A95BE;
+    border: #2A95BE
 }

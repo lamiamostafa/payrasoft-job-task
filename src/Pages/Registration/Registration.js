@@ -1,12 +1,13 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
 import './Registration.css'
 
 const Registration = () => {
 
     return (
         <div>
-            <h1 className="title">Online Registration form</h1>
-            <div className="content">
+            <h1 className="title ">Online Registration form</h1>
+            <div className="content ps-3 pt-2">
                 <p>Already Signed up? Click <span className="login-title">Login </span> to login your account.</p>
                 <p className="title-body">SSC and HSC Information</p>
                 <form action="">
@@ -250,7 +251,7 @@ const Registration = () => {
                             </div>
                             <div>
                                 <label className="label col-md-5" htmlFor=" ">Date of Birth <br />[এস.এস.সি /সমমান পরীক্ষার সার্টিফিকেট অনুযায়ী] </label>
-                                <input type="date" name="" id="" placeholder="" className="student-input-field my-2 col-md-5" />
+                                <input type="date" name="" id="" placeholder="" className="student-input-field my-2 col-md-5 birth-input" />
                             </div>
                             <div>
                                 <label className="label col-md-5" htmlFor=" ">Hons Registration No.(for Hons admission)SMS এর মাধ্যমে প্রাপ্ত Security Code(for HSC) </label>
@@ -275,10 +276,66 @@ const Registration = () => {
 
 
                         </div>
-                        <div className="d-flex">
-                            <label htmlFor="">Permanent Address</label>
-                            <input type="text" name="" placeholder="Permanent Address" id="" />
+                        <div >
+                            <label className="label col-md-5 ms-4 mt-4" htmlFor="">Permanent Address</label><br />
+                            <input type="text" name="" placeholder="Permanent Address" id="" className="student-input-field my-4 col-md-5" />
                         </div>
+                        <div >
+                            <label className="label col-md-5 ms-4 mt-4" htmlFor="">Present Address</label><br />
+                            <input type="text" name="" placeholder="Present Address" id="" className="student-input-field my-4 col-md-5" />
+                        </div>
+                        <div >
+                            <label className="label col-md-5 ms-4 mt-4" htmlFor="">Legal Guardian [আইনানুগ অভিভাবকের (পিতা জীবিত না থাকলে) নাম, পেশা ও পদবি, টেলিফোন নম্বর, পূর্ণ ঠিকানা]</label><br />
+                            <input type="text" name="" placeholder="Legal Guardian Name, Occupation and ID" id="" className="student-input-field my-4 col-md-5" />
+                        </div>
+                        <div >
+                            <label className="label col-md-5 ms-4 mt-4" htmlFor="">Local Guardian [স্থানীয় অভিভাবকের (পিতা বা মাতা ঢাকায় বসবাস না করলে ) নাম, পেশা ও পদবি, টেলিফোন নম্বর, পূর্ণ ঠিকানা]</label><br />
+                            <input type="text" name="" placeholder="Local Guardian Name, Occupation and ID" id="" className="student-input-field my-4 col-md-5" />
+                        </div>
+                        <div className="row col-lg-12">
+                            <div className="col-md-5">
+                                <label className="label col-md-5" htmlFor=" ">Password </label>
+                                <input type="text" name="" id="" placeholder="Minimum 6 Characters" className="student-input-field my-2 col-md-5" />
+                            </div>
+                            <div className="col-md-5 ">
+                                <label className="label col-md-5" htmlFor=" ">Confirm Password </label>
+                                <input type="text" name="" id="" placeholder="Confirm Password " className="student-input-field my-2 col-md-5" />
+                            </div>
+                        </div>
+                        <p className="p-title">**It's very important**</p>
+                        <div className="">
+                            <label className="label col-md-3 ms-4 mt-4" htmlFor="">Student must Provide Recently <br /> Taken Passport Size Official Image </label>
+                            <input type="file" name="" id="" className="student-input-img my-2 col-md-2" />
+
+                        </div>
+                        <div className="row">
+                            <div className="col-md-5">
+                                <label className="label col-md-4 ms-4" htmlFor=""><span class="maximum">Maximum Photo File Size: 15KB and Image Dimension Size, Width: 120  pixel, Height: 150pixel.</span> <br /> <span class="this-title">This image will be sent to education board for your HSC registration</span></label>
+                                {/* <label htmlFor="" className="border-maximum" ><img src="img" alt="img" srcset="" /></label> */}
+                            </div>
+                            <div className="col-md-5 mt-5 captcha">
+
+                                <div className="title-captcha">
+                                    <label className="label col-md-5" htmlFor="">Captcha Code</label>
+                                    <label className="label col-md-5" htmlFor="">Type Captcha Code</label>
+                                </div>
+                                <div className="mt-4">
+                                    <label className="  col-md-5 body-captcha1" htmlFor=""><img src="" alt="" srcset="" /> CAPTCHA Code</label>
+                                    <input type="text" className="student-input-field my-2  col-md-5 body-captcha2" placeholder="Type Text As Left Image" />
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-md-5">
+                                    <label className="label col-md-5 ms-4" htmlFor="">Nationality</label>
+                                    <input type="text" value="Bangladeshi" className="student-input-field  my-2 col-md-6 nation-input" />
+                                </div>
+                                <div className="col-md-5 save-field-title">
+                                    <label className="label col-md-5  mt-3 save-field" htmlFor="">Save and Go to Next Step</label>
+                                    <button variant="primary" className="submit-button my-2  col-md-5 ">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
 
                 </form>

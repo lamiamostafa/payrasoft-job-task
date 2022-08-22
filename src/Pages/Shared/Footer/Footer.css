@@ -1,0 +1,33 @@
+.footer-content {
+    background-color: #004D40;
+    color: white;
+}
+
+.footer-title {
+    color: #8bc34a;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-divider {
+    color: #8bc34a;
+    border: 3px;
+}
+
+.size-contain {
+    color: white;
+
+    height: 20px;
+    width: 20px;
+}
+
+.footer-end-title {
+    font-size: 28px;
+    color: #6c757d;
+}
+
+.footer-end {
+    width: 180px;
+
+
+}
